@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>React Live: Start Scene</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+        <link rel="stylesheet" href="./circle.css">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div class="canvas-background">
+            <canvas id="canvas"></canvas>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <filter id="liquid">
+                <!--important code : [blur + contrast] , contrast on alpha channel to prevent change color-->
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 40 -10"/>
+                </filter>
+            </defs>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="heading">
+                <h1>Building Web UIs with React</h1>
+            </div>
+            <div class="AtomContainer">
+                <div class="atom">
+                    <div class="electron"></div>
+                    <div class="electron"></div>
+                    <div class="electron"></div>
+                </div>
+            </div>
+            <div class="gif-image">
+                <h3>Our Team Leader is setting things up, for a High Performance Facebook Live</a></h3>
+                <img src="https://media.giphy.com/media/LHZyixOnHwDDy/giphy.gif" />
+            </div>
+            <div class="FacebookLogo">
+                <div class="Circles">
+                    <div class='wrap'>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                        <div class='circle'></div>
+                    </div>
+                </div>
+                <h4>Facebook Developer Circles</h4>
+            </div>
+            <div class="wait">
+                <h3>We'll get started in a short while <3</h3>
+            </div>
+            <div class="legal-jumbo">
+                <h3>All opinions are my own</h3>
+                <h4>© Copyright 2017 Hannan Ali</h4> 
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+        <script src="./canvas.js"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
