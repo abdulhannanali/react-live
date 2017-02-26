@@ -7,21 +7,12 @@
         <link rel="stylesheet" href="./index.css">
     </head>
     <body>
-        <div class="canvas-background">
-            <canvas id="canvas"></canvas>
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-            <defs>
-                <filter id="liquid">
-                <!--important code : [blur + contrast] , contrast on alpha channel to prevent change color-->
-                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 40 -10"/>
-                </filter>
-            </defs>
-            </svg>
-        </div>
         <div class="container">
             <div class="heading">
                 <h1>Building Web UIs with React</h1>
+            </div>
+            <div class="fb-live">
+                <img src="./assets/live.png" alt="">
             </div>
             <div class="AtomContainer">
                 <div class="atom">
@@ -61,7 +52,6 @@
         </div>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
-        <script src="./canvas.js"></script>
         <script src="./index.js"></script>
     </body>
 </html>

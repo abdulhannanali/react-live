@@ -18,8 +18,18 @@ amd when we are going to start presenting.
 
 ### End Scene
 
+## Follow Link(s)
 
-#### CodePen Credits
+Follow Links are helpful in increasing the amount of traction, our application receives. We can discuss them in 
+every scene, so people watching the stream, know how they can get connected with us.
+
+There are two ways to approach this problem, either suggest the users to Follow Us on Facebook, or give them our
+username. The latter might be the better approach as it allows us to build an audience on Facebook, and is much more easier to 
+do, natively on Fb.
+
+The styling however, would be same all over the scenes, in order to give it a very consistent look.
+
+## CodePen Credits
 I used many of the Codpens in order to make this possible. Without the use of amazing Pens at CodePen
 licensed under MIT LICENSE. These scenes wouldn't have been possible. Here are the credits, to all
 the pens, along the Scene I used them in.
